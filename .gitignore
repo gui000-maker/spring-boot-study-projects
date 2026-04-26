@@ -1,0 +1,49 @@
+# Build directories
+target/
+build/
+/dist/
+*.jar
+*.war
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Runtime
+*.log
+*.class
+.classpath
+.project
+.settings/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node (if using Node with Spring)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride

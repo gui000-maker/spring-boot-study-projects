@@ -1,0 +1,26 @@
+### Get all
+GET http://localhost:8080/api/people
+Accept: application/json
+
+### Create person
+POST http://localhost:8080/api/people
+Content-Type: application/json
+
+{
+  "name": "John"
+}
+
+### Get by id
+GET http://localhost:8080/api/people/1
+Accept: application/json
+
+### Update
+PUT http://localhost:8080/api/people/1
+Content-Type: application/json
+
+{
+  "name": "John Updated"
+}
+
+### Delete
+DELETE http://localhost:8080/api/people/1

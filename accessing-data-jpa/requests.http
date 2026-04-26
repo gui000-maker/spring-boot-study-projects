@@ -1,0 +1,30 @@
+@baseUrl = http://localhost:8080
+
+### Get all customers
+GET {{baseUrl}}/customers
+Accept: application/json
+
+### Create customer
+POST {{baseUrl}}/customers
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe"
+}
+
+### Get customer by id
+GET {{baseUrl}}/customers/1
+Accept: application/json
+
+### Update customer
+PUT {{baseUrl}}/customers/1
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Updated"
+}
+
+### Delete customer
+DELETE {{baseUrl}}/customers/1
